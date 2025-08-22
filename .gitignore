@@ -1,0 +1,69 @@
+#logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+test-coverage/
+coverage/
+nyc_output/
+report/
+jest/
+.vitest/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+./node_modules
+../node_modules
+Api/node_modules
+Frontend/node_modules
+Api/node_modules/
+Frontend/node_modules/
+
+# Build directories
+dist/
+Api/dist/
+Frontend/dist/
+
+# Production
+build/
+Api/build/
+Frontend/build/
+
+# Environment files
+.env
+Api/.env
+Frontend/.env
+.env.local
+Frontend/.env.local
+Api/.env.local
+
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
