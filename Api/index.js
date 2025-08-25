@@ -13,6 +13,8 @@ import cors from 'cors';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+connectDB();
+
 app.use(cors({ origin: process.env.FRONTEND_URL, credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
@@ -34,7 +36,6 @@ app.use((err, req, res, next) => {
 
 
 app.listen(PORT, () => {
-  connectDB();
   console.log("OK From Backend 😉");
 });
 
